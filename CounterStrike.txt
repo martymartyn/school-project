@@ -1,0 +1,37 @@
+
+Release Notes for 1/12/2017
+12 JAN 2017 - 
+
+[THE ELEAGUE ATLANTA 2017 CS:GO MAJOR CHAMPIONSHIP]
+– Team stickers, stickers autographed by professional CS:GO players, and all-new team graffiti are available for purchase in-game and from the Steam Community Market, with 50% of the proceeds going to players and organizations. For more details, visit http://www.counter-strike.net/pickem/atlanta2017
+– Team stickers can be used as game pieces for the Atlanta 2017 Team Pick’Em Challenge.
+— Group stage picks can be made immediately, Playoff picks can be made when the group stage has completed.
+— Group stage picks lock at the start of the group stage matches.
+— Playoff picks lock at the start of the first Playoff matches.
+[GAMEPLAY]
+– Players killed during grenade-throwing animation will no longer drop a duplicate grenade if that grenade has already been thrown.
+– func_breakables will no longer make noise when hits deal no damage.
+[MISC]
+– Added a server setting sv_steamauth_enforce to allow tournament organizers for LAN events to delay player kick due to No Steam Logon client issue until the end of a live round when tournament match will automatically pause and a round backup with all correct information will be saved for reconnect.
+[AUDIO]
+– Lowered volume of bullet-bys and bullet impacts.
+– Changed default weapon near/far crossfade max distance so that a slight perceived volume bump doesn’t happen at crossfade junctions.
+– Also lowered volume of distant weapons slightly to address the same issue.
+– Slightly increased the min distance of the falloff so that 3rd parties can hear max volume at about 1m away from shooter.
+– Increased the input curve amount so that rate of volume decay over distance is more pronounced.
+– Added descriptions to many mixer groups.
+[MAPS]
+-Mirage
+–Fixed various spots where C4 could get stuck
+–Removed some slight gaps in cover in Bombsite A
+-Nuke
+–Fixed bug where jumping inside of Toxic in Bombsite B would clip the playermodel through the ceiling
+–Removed vent-sound from top of Mini, Bombsite A
+-Cache
+–Fixed sound-spam when shooting at vent in Checkers through a prop
+–Clipping improvements
+–Optimizations
+-Inferno
+–Fixed some minor graphical bugs
+–Fixed a spot where players could get stuck near Boiler, Bombsite A
+–Added backfaces to gate used at bottom of Banana, Bombsite B

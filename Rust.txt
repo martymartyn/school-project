@@ -1,0 +1,16 @@
+Farming 1.5Maurino Berry
+I’ve reworked a bunch of the farming mechanics. It may not seem like a priority, but I’m trying to get old forgotten features ship-shape and ready for prime time.
+
+You’re not forced to do anything differently: if you really want to you can spam lines of hemp/pumpkins outside and it’ll grow just like it used to. However, if you have a green thumb, you can take care of your plants by placing them in a planter (2x growth speed) and give them light 24 hours a day via the ceiling light (2x growth speed), and if you pour fresh water into the planter you’ll notice the soil gets darker (temp effect). As the plants grow they will consume this water. Given enough water over its lifetime, the yield of the plant can double! Salt water, however, will completely dry them out. It’s not complete, we need more artwork and shader features, and I’d like to do a genetics thing where you can clone good plants or extract high quality seeds, but it’s a good enough start. Enjoy!
+
+New Loot Crates + ChangesMaurino Berry
+I was resistant to adding full items spawning as I felt it bypassed the component system, but enough people internally and externally expressed their desire for it, so we’re going to run an experiment. I’ve added a new, purple (temp art) loot crate which spawns at junk piles. It can contain hatchets, pickaxes, starter weapons, and some armor. I figure we should start with baby steps and see how it is received. I’ve also changed the probabilities of crates for all the different junkpiles. You’re more likely to find the purple loot crates near cars/trucks, the smaller junkpiles are more likely to have food and oil, and the machinery style ones are more likely to have tier2 components.
+
+Ceiling LightsMaurino Berry
+I increased the brightness of ceiling lights by 50% during my work on farming. I was hesitant to do this because we can’t afford to add shadows to them, which means there is a larger chance of light bleed through walls. I tried to find a middle-ground, so let’s see how this turns out. One thing is for sure, your bases and/or grow ops will be much brighter!
+
+Corpse FliesMaurino Berry
+Flies at night were using an unlit shader, which meant they were visible even though it was pitch black. This is now fixed.
+
+Junkpile VariantsVincent Mayeur
+This week I spent some time remodelling two of our vehicles into wrecks to make more junk pile variants. I also put together several other piles to add variation. The way these spawn on the terrain for now is not perfect, some adjustments remain to be made in that territory.

@@ -1,0 +1,51 @@
+General
+Splash text
+"Javalicious edition"
+"Should not be played while driving"
+"You're going too fast!"
+Internationalization
+New strings within the game were made available for internationalization:
+World selection error messages.
+Customized superflat preset names.
+Spectator-mode-specific options and messages.
+In the Options menu: the words "chunks" and "fps"
+In item tooltips: the words "Color: ", "NBT: " and "Durability: "
+The F3+Q keybindings display text, and text associated with other F3 actions.
+Text associated with downloading resource packs from servers.
+/save-all flush command output
+Particles
+spit
+Used when llamas spit.
+totem
+Used when the Totem of Undying is activated.
+NBT tags
+New display tag entry for items: LocName for translation strings
+CustomPotionColor integer tag for potions and potion arrows to overwrite/set the color
+ColorMap integer tag for filled maps to overwrite/set the color of the marks in the item texture
+Gameplay
+Gamerules
+doWeatherCycle
+Determines whether the weather will change.
+Defaults to true.
+maxEntityCramming
+Defaults to 24
+If one entity tries to push more than specified number of entities, it starts to suffocate.
+Gets damaged 3 hearts by tick, passes though armor.
+The death message is "<Player> squished too much".
+Setting to 0 disables the rule.
+Affects all entities.
+Curse Enchantments
+Enchantments with negative effects.
+Two curses added: the Curse of Binding (Enchantment ID 10) and the Curse of Vanishing (Enchantment ID 71).
+Curse of Binding will bind the item to you, making you unable to drop it or take it off if it is an armor item, although it will drop when you die.
+Players in Creative mode are unaffected by this curse.
+Curse of Vanishing will make the item disappear if you die. /gamerule keepInventory true will prevent this.
+Cursed tools, armor and books can be found as loot in some generated structures.
+/locate Command
+Syntax: /locate <StructureType>
+Accepts: EndCity, Fortress, Mansion, Mineshaft, Monument, Stronghold, Temple and Village.
+Desert temples, Jungle temples, Witch huts and Igloos all go under the Temple category.
+Pushes coordinates for the closest structure of given type in the chat for the player who executed the command.
+Returns the message "Located [Structure] at [x] [y] [z]".
+Will display the Y coordinates as "(y?)" for some structures
+If a structure is not located nearby (i.e. in a different dimension), it will respond with "Unable to locate any [StructureType] feature"
