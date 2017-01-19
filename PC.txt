@@ -1,0 +1,9 @@
+CPU: Intel Core i7-6700K
+Motherboard: Asus Maximus VIII
+Memory: G.Skill Ripjaws 4 Series DDR4 2400 (32GB)
+Graphics card: EVGA GeForce GTX 1080 FTW DT GAMING ACX 3.0
+Power supply: EVGA Supernova 850 watt G2 80 Plus Gold
+Primary storage: Samsung 950 Pro SSD (256GB)
+Secondary storage: Samsung 850 EVO (1TB)
+CPU cooler: Corsair H100i v2
+Case: Cooler Master MasterCase Pro 5
